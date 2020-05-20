@@ -7,4 +7,11 @@ git log ; git reset --hard commit id
  git stash save
  git checkout master
  git checkout dev 
- git stash lis
+ git stash list
+
+添加和删除tag
+git tag -a v1.1.0 -m'1.1.0版本'
+git push origin v1.1.0
+
+git tag -d v1.1.0
+$ git push origin 
