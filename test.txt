@@ -2,3 +2,9 @@ test
 
 在修改完成后，如果发现错误，撤回提交并再次修改并提交 
 git log ; git reset --hard commit id
+
+临时切换分支，对当前未提交的修改stash，再切换回当前分支，并恢复未提交的修改
+ git stash save
+ git checkout master
+ git checkout dev 
+ git stash lis
