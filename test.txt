@@ -1,1 +1,4 @@
 test
+
+在修改完成后，如果发现错误，撤回提交并再次修改并提交 
+git log ; git reset --hard commit id
